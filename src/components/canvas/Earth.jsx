@@ -9,6 +9,32 @@ const Earth = () => {
 
   console.log("Loaded GLTF:", earth);
 
+  // Vérification et correction des NaN dans les positions de la géométrie
+  earth.scene.traverse((child) => {
+    if (child.isMesh) {
+      const positions = child.geometry.attributes.position.array;
+
+      let hasNaN = false;
+      for (let i = 0; i < positions.length; i++) {
+        if (isNaN(positions[i])) {
+          hasNaN = true;
+          positions[i] = 0; // Remplace NaN par 0
+        }
+      }
+
+      if (hasNaN) {
+        console.warn("NaN values corrected in geometry positions:", positions);
+
+        // Si des modifications ont été faites, marquez l'attribut pour mise à jour
+        child.geometry.attributes.position.needsUpdate = true;
+
+        // Recalculez les bounding box et bounding sphere
+        child.geometry.computeBoundingBox();
+        child.geometry.computeBoundingSphere();
+      }
+    }
+  });
+
   return (
     <group>
       {/* Affiche le modèle principal */}
