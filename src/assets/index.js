@@ -1,7 +1,7 @@
 import logo from "./logo.png";
-import backend from "./backend.png";
-import mobile from "./mobile.png";
-import web from "./web.png";
+import Securite from "./Securite.jpeg";
+import DevMobile from "./DevMobile.jpeg";
+import DevWeb from "./DevWeb.jpeg";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
@@ -26,14 +26,17 @@ import sigeris from "./company/sigeris.png";
 import webdev from "./webdev.jpg";
 import POO from "./POO.png";
 import Reseau from "./Reseau.jpg";
+import ReactThreejs from "./ReactThreejs.jpg";
+import GestionProjet from "./GestionProjet.jpg";
+import PM from "./PM.png";
 
 import Profil from "./Profil.jpg";
 
 export {
   logo,
-  backend,
-  mobile,
-  web,
+  Securite,
+  DevMobile,
+  DevWeb,
   github,
   menu,
   close,
@@ -55,5 +58,8 @@ export {
   webdev,
   POO,
   Reseau,
+  ReactThreejs,
+  GestionProjet,
+  PM,
   Profil,
 };
