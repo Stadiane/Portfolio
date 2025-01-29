@@ -50,11 +50,11 @@ const services = [
     icon: DevMobile,
   },
   {
-    title: "Analyste junior en cybersécutité",
+    title: "Analyste junior en Réseau et sécurité",
     icon: Securite,
   },
   {
-    title: "Chef de projet",
+    title: "Assistante chef de projet",
     icon: PM,
   },
 ];
@@ -116,16 +116,19 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Développeuse React.js",
+    title: "Développeuse React Native",
     company_name: "SAS Evasion location, Nancy / FRANCE",
     icon: logo_Evasion_Location,
     iconBg: "#383E56",
     date: "Janvier - Août 2025",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Création d'une application React Native permettant d'afficher et gérer les données hôtelières.",
+      "Connexion avec le PMS existant via une API sécurisée.",
+      "Gestion de l'authentification avec JWT (JSON Web Token).",
+      "Utilisation de Postman pour tester et intégrer l'API",
+      "Développement des écrans principaux",
+      "Récupération et affichage de la liste des structures hôtelières.",
+      "Stockage sécurisé du token JWT avec AsyncStorage.",
     ],
   },
   {
@@ -137,9 +140,9 @@ const experiences = [
     points: [
       "Création d’un application sur smartphones à partir du PMS Système de Gestion Hôtelière de l’entreprise.",
       "Identification des fonctionnalités clés nécessaires pour l'application.",
-      "Conception de l'Application :  Création des wireframes et des maquettes avec figma pour visualiser l'interface utilisateur et le flux de l'application.",
-      "Développement des fonctionnalités essentielles de l'application en mettant l'accent sur l'interface utilisateur, l’intégration au PMS, et tester chaque fonctionnalité régulièrement.",
-      "Ceci à été fait sur android studio avec les langages JAVA ainsi que kotlin.",
+      "Conception de l'Application :  Création des wireframes et des maquettes sur figma pour visualiser l'interface utilisateur et le flux de l'application.",
+      "Création des diagrammes de séquences et de cas d'utilisation qui permet de structurer les fonctionnalités et les interactions techniques de l'application.",
+      "Ceci à été fait sur diagram.net.",
     ],
   },
   {
@@ -181,7 +184,7 @@ const projects = [
       },
     ],
     image: webdev,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/Stadiane/Dev_Web",
   },
   {
     name: "Programmation Orienté Objet",
@@ -202,24 +205,23 @@ const projects = [
       },
     ],
     image: POO,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/Stadiane/POO",
   },
   {
-    name: "Réseaux et système",
-    description:
-      "Développer le réseau informatique de différentes entreprises dans une ville",
+    name: "Développement web",
+    description: "Développer un portfolio 3D en react.js et three.js",
     tags: [
       {
-        name: "cisco packet tracer",
+        name: "React.js",
         color: "blue-text-gradient",
       },
       {
-        name: "wireshark",
+        name: "Three.js",
         color: "green-text-gradient",
       },
     ],
-    image: Reseau,
-    source_code_link: "https://github.com/",
+    image: ReactThreejs,
+    source_code_link: "https://github.com/Stadiane/Portfolio",
   },
   {
     name: "Gestion de projet",
@@ -244,22 +246,24 @@ const projects = [
       },
     ],
     image: GestionProjet,
+    source_code_link: "https://github.com/Stadiane",
   },
   {
-    name: "Développement web",
-    description: "Développer un portfolio 3D en react.js et three.js",
+    name: "Réseaux et système",
+    description:
+      "Développer le réseau informatique de différentes entreprises dans une ville",
     tags: [
       {
-        name: "React.js",
+        name: "cisco packet tracer",
         color: "blue-text-gradient",
       },
       {
-        name: "Three.js",
+        name: "wireshark",
         color: "green-text-gradient",
       },
     ],
-    image: ReactThreejs,
-    source_code_link: "https://github.com/Stadiane/Portfolio",
+    image: Reseau,
+    source_code_link: "https://github.com/Stadiane",
   },
 ];
 
