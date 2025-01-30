@@ -126,7 +126,7 @@ const experiences = [
       "Connexion avec le PMS existant via une API sécurisée.",
       "Gestion de l'authentification avec JWT (JSON Web Token).",
       "Utilisation de Postman pour tester et intégrer l'API",
-      "Développement des écrans principaux",
+      "Développement des différentes pages de l'application",
       "Récupération et affichage de la liste des structures hôtelières.",
       "Stockage sécurisé du token JWT avec AsyncStorage.",
     ],
