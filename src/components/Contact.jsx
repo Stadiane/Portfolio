@@ -82,7 +82,7 @@ const Contact = () => {
             <input
               type="text"
               name="nom"
-              value={form.name}
+              value={form.nom}
               onChange={handleChange}
               placeholder="Entrer votre nom"
               className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"

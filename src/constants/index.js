@@ -152,8 +152,8 @@ const experiences = [
     iconBg: "#383E56",
     date: "Mai - Août 2023",
     points: [
-      "Apprentissage du framework BOOKSTRAP 5 (modèles de conception basés sur CSS, HTML et Javascript).",
-      "Optimisation des pages BOOKSTRAP pour les appareils mobiles.",
+      "Apprentissage du framework BOOTSTRAP 5 (modèles de conception basés sur CSS, HTML et Javascript).",
+      "Optimisation des pages BOOTSTRAP pour les appareils mobiles.",
       "Utilisation des classes et des fonctionnalités spécifiques pour garantir une expérience utilisateur cohérente sur différentes tailles d'écran.",
       "Documentation du code de manière claire et compréhensible.",
     ],
@@ -189,7 +189,7 @@ const projects = [
   {
     name: "Programmation Orienté Objet",
     description:
-      "Informatique de gestion : Gestion d'un magasin qui fait dans la vente en ligne des composants électronique",
+      "Informatique de gestion : Gestion d'un magasin de vente en ligne des composants électroniques",
     tags: [
       {
         name: "c++",
@@ -226,7 +226,7 @@ const projects = [
   {
     name: "Gestion de projet",
     description:
-      "Gérer le projet de développemnt d'une application mobile pour les services d'un campus universitaire",
+      "Gérer le projet de développement d'une application mobile pour les services d'un campus universitaire",
     tags: [
       {
         name: "Méthode Agile/Scrum",
