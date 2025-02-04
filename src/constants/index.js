@@ -138,7 +138,7 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "Juin - Août 2024",
     points: [
-      "Création d’un application sur smartphones à partir du PMS Système de Gestion Hôtelière de l’entreprise.",
+      "Création d'une application sur smartphones à partir du PMS Système de Gestion Hôtelière de l’entreprise.",
       "Identification des fonctionnalités clés nécessaires pour l'application.",
       "Conception de l'Application :  Création des wireframes et des maquettes sur figma pour visualiser l'interface utilisateur et le flux de l'application.",
       "Création des diagrammes de séquences et de cas d'utilisation qui permet de structurer les fonctionnalités et les interactions techniques de l'application.",
