@@ -30,7 +30,7 @@ import ReactThreejs from "./ReactThreejs.jpg";
 import GestionProjet from "./GestionProjet.jpg";
 import PM from "./PM.png";
 
-import Profil from "./Profil.jpg";
+import Profil from "./Profil.png";
 
 export {
   logo,

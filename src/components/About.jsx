@@ -47,7 +47,7 @@ const About = () => {
         className="mt-8 text-secondary text-[30px] max-w-3xl leading-[35px]"
       >
         <p className={`${styles.heroSubText} mt-4 text-white-40`}>
-          Passionnée par les nouvelles technologies, je m’intéresse
+          Je suis passionnée par les nouvelles technologies, je m’intéresse
           particulièrement au développement web et mobile, à la cybersécurité
           ainsi qu’à la gestion de projet. Curieuse et motivée, je souhaite
           intégrer une entreprise dynamique où je pourrai approfondir mes
