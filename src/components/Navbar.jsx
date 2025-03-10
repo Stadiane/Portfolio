@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 import { navLinks } from "../constants";
 import { logo, menu, close } from "../assets";
-import cv from "../assets/CV_Stadiane_METINO_NGOUFO.pdf";
+import cv from "../assets/CV_Stadiane METINO NGOUFO.pdf";
 
 const Navbar = () => {
   const [active, setActive] = useState("");
@@ -45,7 +45,7 @@ const Navbar = () => {
         </ul>
 
         <button className="bg-slate-600 px-3 py-2 rounded hidden sm:block">
-          <a href={cv} download="CV_Stadiane_METINO_NGOUFO">
+          <a href={cv} download="CV_Stadiane METINO NGOUFO">
             Télécharger mon CV
           </a>
         </button>
