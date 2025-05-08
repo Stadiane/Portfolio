@@ -32,9 +32,11 @@ const Hero = () => {
           <p className={`${styles.heroSubText} mt-4 text-white-40`}>
             {" "}
             {/*<br className ="sm:block hidden"/>*/}
-            Actuellement en 2ᵉ année à l'ESGI (Ecole Supérieure de Génie
-            Informatique), je recherche une alternance pour mettre à profit mes
-            compétences et m'investir dans des projets stimulants.
+            Actuellement en 2ᵉ année à l'ESGI (École Supérieure de Génie
+            Informatique), je suis à la recherche d'une alternance pour mon
+            année académique prochaine, à partir de septembre 2025. Je suis
+            disponible partout en France et souhaite mettre mes compétences en
+            pratique tout en m’investissant dans des projets intéressants.
           </p>
         </div>
       </div>

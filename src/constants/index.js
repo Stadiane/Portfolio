@@ -208,6 +208,23 @@ const projects = [
     source_code_link: "https://github.com/Stadiane/POO",
   },
   {
+    name: "PHP Programmation Orienté Objet",
+    description:
+      "Ce projet est un jeu de type **Tamagotchi**, où vous pouvez créer et interagir avec des animaux virtuels. Le but est de nourrir, soigner, câliner et surveiller la santé de vos animaux tout en faisant face à des éléments aléatoires comme la faim, la soif, l'humeur et l'âge. Le jeu prend également en compte les saisons, ce qui affecte l'état de vos animaux.",
+    tags: [
+      {
+        name: "PHP",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "POO",
+        color: "green-text-gradient",
+      },
+    ],
+    image: POO,
+    source_code_link: "https://github.com/Stadiane/Mini-Jeu---Tamagotchi",
+  },
+  {
     name: "Développement web",
     description: "Développer un portfolio 3D en react.js et three.js",
     tags: [
